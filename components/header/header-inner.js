@@ -60,7 +60,7 @@ const HeaderInner = () => {
           </div>
           <div className="main-nav__right">
             <a href="#" className="thm-btn">
-              <span>Download App</span>
+              <span>Purchase now</span>
             </a>
           </div>
         </Container>
@@ -86,7 +86,7 @@ const HeaderInner = () => {
           </div>
           <div className="main-nav__right">
             <a href="#" className="thm-btn">
-              <span>Download App</span>
+              <span>Purchase now</span>
             </a>
           </div>
         </Container>

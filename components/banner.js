@@ -5,7 +5,7 @@ import bgShape2 from "@images/banner/banner-shape-1-2.png";
 import bannerBG from "@images/banner/banner-bg-1.png";
 import bannerShape1 from "@images/shapes/banner-1-1.png";
 import bannerShape2 from "@images/banner/banner-shape-1-4.png";
-import image from "@images/banner/banner-img-1.png";
+import image from "@images/banner/hero_img.png";
 
 const Banner = () => {
   return (
@@ -20,20 +20,10 @@ const Banner = () => {
         <Row>
           <Col xl={6} lg={6}>
             <div className="banner-one__content">
-              <h3>
-                We help to
-                <br />
-                achieve big
-                <br />
-                goals
-              </h3>
-              <p>
-                Nulla facilisi. Proin felis neque, suscipit egestas erat a tin-{" "}
-                <br />
-                cidunt finibus magna consectetur lacus.
-              </p>
+              <h3>Build Your Perfect Body With Us</h3>
+              <p>Let food be thy medicine and medicine be thy food</p>
               <a href="#" className="thm-btn">
-                <span>Discover More</span>
+                <span>Enquire now</span>
               </a>
             </div>
           </Col>

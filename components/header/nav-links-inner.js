@@ -15,25 +15,21 @@ const NavLinksInner = () => {
       </li>
       <li>
         <Link href="/#features">
-          <a>Features</a>
+          <a>Ingredients</a>
         </Link>
       </li>
       <li>
         <Link href="/#pricing">
-          <a>Pricing</a>
+          <a>Products</a>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="/#testimonials">
           <a>Testimonials</a>
         </Link>
-      </li>
-      <li>
-        <Link href="/#screens">
-          <a>Screens</a>
-        </Link>
-      </li>
-      <li className="dropdown">
+      </li> */}
+
+      {/* <li className="dropdown">
         <Link href="/#blog">
           <a>News</a>
         </Link>
@@ -52,7 +48,7 @@ const NavLinksInner = () => {
             </Link>
           </li>
         </ul>
-      </li>
+      </li> */}
     </ul>
   );
 };

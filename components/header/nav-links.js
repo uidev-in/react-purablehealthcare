@@ -22,7 +22,7 @@ const NavLinks = () => {
           offset={-70}
           duration={500}
         >
-          Features
+          Ingredients
         </ScrollLink>
       </li>
       <li>
@@ -34,10 +34,10 @@ const NavLinks = () => {
           offset={-70}
           duration={500}
         >
-          Pricing
+          Products
         </ScrollLink>
       </li>
-      <li>
+      {/* <li>
         <ScrollLink
           activeClass="current"
           to="testimonials"
@@ -48,20 +48,9 @@ const NavLinks = () => {
         >
           Testimonials
         </ScrollLink>
-      </li>
-      <li>
-        <ScrollLink
-          activeClass="current"
-          to="screens"
-          spy={true}
-          smooth={true}
-          offset={-70}
-          duration={500}
-        >
-          Screens
-        </ScrollLink>
-      </li>
-      <li className="dropdown">
+      </li> */}
+
+      {/* <li className="dropdown">
         <ScrollLink
           activeClass="current"
           to="blog"
@@ -87,7 +76,7 @@ const NavLinks = () => {
             </Link>
           </li>
         </ul>
-      </li>
+      </li> */}
     </ul>
   );
 };

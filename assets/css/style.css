@@ -39,7 +39,7 @@ font-family: 'Prata', serif;
 :root {
   --thm-font: "Barlow", sans-serif;
   --heading-font: "Prata", serif;
-  --thm-base: #ffae00;
+  --thm-base: #573abd;
   --thm-base-rgb: 255, 174, 0;
   --thm-primary: #fa496e;
   --thm-primary-rgb: 250, 73, 110;
@@ -755,6 +755,7 @@ li {
 .site-header-one {
   position: relative;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: #fff;
 }
 
 .site-header-one .container-fluid {

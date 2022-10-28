@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container } from "react-bootstrap";
-import logo from "@images/logo-1-1.png";
+import logo from "@images/purablelogo.png";
 import NavLinks from "./nav-links";
 
 const Header = () => {
@@ -60,7 +60,7 @@ const Header = () => {
           </div>
           <div className="main-nav__right">
             <a href="#" className="thm-btn">
-              <span>Download App</span>
+              <span>Purchase now</span>
             </a>
           </div>
         </Container>
@@ -86,7 +86,7 @@ const Header = () => {
           </div>
           <div className="main-nav__right">
             <a href="#" className="thm-btn">
-              <span>Download App</span>
+              <span>Purchase now</span>
             </a>
           </div>
         </Container>

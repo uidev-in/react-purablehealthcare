@@ -18,7 +18,7 @@ import MobileNav from "@components/mobile-nav";
 
 const HomeOne = () => {
   return (
-    <Layout pageTitle="Home Page || Piloz React Next Template">
+    <Layout pageTitle="Purablehealthcare">
       <Header />
       <Banner />
       <ServicesHome />
