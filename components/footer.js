@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import bgImage from "@images/resources/footer-bg-shape-1.png";
-import footerLogo from "@images/resources/footer-logo.png";
+import footerLogo from "@images/Footer_purablelogo.png";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -31,7 +31,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="#" className="color-2">
-                    <i className="fab fa-pinterest-p"></i>
+                    <i className="fab fa-youtube"></i>
                   </a>
                 </li>
                 <li>
@@ -40,7 +40,7 @@ const Footer = () => {
                   </a>
                 </li>
               </ul>
-              <div className="footer-menu">
+              {/* <div className="footer-menu">
                 <ul>
                   <li>
                     <a href="#">Home</a>
@@ -61,7 +61,7 @@ const Footer = () => {
                     <a href="#">News</a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </Col>
         </Row>
@@ -69,7 +69,7 @@ const Footer = () => {
       <div className="site-footer__bottom">
         <Container className="text-center">
           <p>
-            © copyright {year} by <a href="#">Layerdrops.com</a>
+            © copyright {year} by <a href="#">Purablehealthcare.com</a>
           </p>
         </Container>
       </div>
