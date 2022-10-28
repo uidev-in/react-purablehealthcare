@@ -23,13 +23,13 @@ const HomeOne = () => {
       <Banner />
       <ServicesHome />
       <CallToAction />
-      <Video />
-      <AppFeature />
-      <PriceHome />
-      <TestimonialsHome />
-      <AppShot />
+      {/* <Video /> */}
+      {/* <AppFeature /> */}
+      {/* <PriceHome /> */}
+      {/* <TestimonialsHome /> */}
+      {/* <AppShot /> */}
       <FAQ />
-      <BlogHome />
+      {/* <BlogHome /> */}
       <Brands />
       <Subscribe />
       <Footer />
