@@ -5,7 +5,8 @@ const ServiceCard = ({ extraClassName, icon, title, text }) => {
     <div className="service-one__single">
       <div className={`service-icon icon-${extraClassName}`}>
         <div className={`icon-box icon-box-${extraClassName}`}>
-          <i className={icon}></i>
+          {/* <i className={icon}></i> */}
+          <img src={icon} className="img-fluid" width="60px" />
         </div>
       </div>
       <div className="text">

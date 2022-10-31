@@ -13,7 +13,7 @@ const ServicesHome = () => {
         </div>
         <Row>
           {posts.map(({ extraClassName, icon, title, text }, index) => (
-            <Col xl={3} lg={3} md={6} key={`service-card-key-${index}`}>
+            <Col xl={4} lg={4} md={6} key={`service-card-key-${index}`}>
               <ServiceCard
                 extraClassName={extraClassName}
                 icon={icon}

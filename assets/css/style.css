@@ -1589,7 +1589,7 @@ li {
   height: 80px;
   width: 80px;
   border-radius: 50px;
-  background: var(--thm-primary);
+  /* background: var(--thm-primary); */
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
