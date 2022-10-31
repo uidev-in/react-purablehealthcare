@@ -2012,6 +2012,57 @@ li {
 }
 
 /*--------------------------------------------------------------
+# Product 
+--------------------------------------------------------------*/
+.product {
+}
+.mb-40 {
+  margin-bottom: 40px;
+}
+.product__img {
+  position: relative;
+}
+.product__img img {
+  width: 100%;
+}
+.product-action {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 30px;
+}
+.product-action a {
+  display: inline-block;
+  background: #ffffff;
+  line-height: 40px;
+  color: #a39fb4;
+  margin: 0 8px;
+  opacity: 0;
+  visibility: hidden;
+  border-radius: 5px;
+  padding: 0 20px;
+}
+.product:hover .product-action a {
+  margin: 0 5px;
+  opacity: 1;
+  visibility: visible;
+}
+.pt-30 {
+  padding-top: 30px;
+}
+.pro-title {
+  margin-bottom: 12px;
+}
+.pro-title a {
+  font-size: 24px;
+}
+.price span {
+  color: #181e23;
+  font-size: 15px;
+  display: inline-block;
+  margin: 0 5px;
+}
+/*--------------------------------------------------------------
 # Pricing One
 --------------------------------------------------------------*/
 .pricing-one {
