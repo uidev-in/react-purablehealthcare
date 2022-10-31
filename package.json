@@ -18,6 +18,7 @@
     "react-dom": "^16.13.1",
     "react-modal-video": "^1.2.6",
     "react-scroll": "^1.8.1",
+    "react-simply-tabs": "^1.0.4",
     "react-visibility-sensor": "^5.1.1",
     "simple-react-lightbox": "^3.3.4-1",
     "swiper": "^6.3.3",

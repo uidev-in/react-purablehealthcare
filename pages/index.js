@@ -15,7 +15,7 @@ import Brands from "@components/brands";
 import Subscribe from "@components/subscribe";
 import Footer from "@components/footer";
 import MobileNav from "@components/mobile-nav";
-import Products from "@components/products";
+import Products from "@components/product/products";
 
 const HomeOne = () => {
   return (
