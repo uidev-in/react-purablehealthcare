@@ -25,7 +25,7 @@ export default function ProductDetails() {
                   </span>
                   <span className="text-dark"> / 400gm</span>
                 </div>
-                <p className="">
+                <p className="para">
                   High protein from quality whey, supports faster recovery
                 </p>
                 <div className="pd_benifits">
@@ -58,27 +58,68 @@ export default function ProductDetails() {
                   activeControlProps={{
                     className: "active",
                     style: {
-                      borderColor: "#cd0880",
-                      backgroundColor: "#cd0880",
+                      borderColor: "#fd9121",
+                      backgroundColor: "#fd9121",
                       color: "#ffffff",
                       borderRadius: "3px",
                     },
                   }}
                   controls={[
-                    <button type="button" className="">
+                    <button type="button" className="pd_tab">
                       Description
                     </button>,
-                    <button type="button" className="">
+                    <button type="button" className="pd_tab">
                       Additonal Info
                     </button>,
                   ]}
                 >
-                  <div>
-                    <p>asdkjnkasdfnk</p>
+                  <div className="pd_tab_details">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Duis aute irure dolor in reprehenderit in voluptate velit
+                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                      sint occaecat cupidatat non proident, sunt in culpa qui
+                      officia deserunt mollit anim id est laborum. Sed ut
+                      perspiciatis unde omnis iste natus error sit voluptatem
+                      accusantium doloremque laudantium, totam rem aperiam,
+                      eaque ipsa quae ab illo inventore veritatis et quasi
+                      architecto beatae vitae dicta sunt explicabo. Nemo enim
+                      ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+                      fugit, sed quia consequuntur magni dolores eos qui ratione
+                      voluptatem sequi nesciunt. Neque porro quisquam est, qui
+                      dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                      velit, sed quia non numquam eius modi tempora incidunt ut
+                      labore et dolore magnam aliquam quaerat voluptatem.
+                    </p>
                   </div>
 
-                  <div>
-                    <p>sdfgklhkjdsngfkb</p>
+                  <div className="pd_tab_details">
+                    <div className="table-responsive">
+                      <h4>Additional information</h4>
+                      <table className="table">
+                        <tbody>
+                          <tr>
+                            <th>Weight</th>
+                            <td className="product_weight">1.4 oz</td>
+                          </tr>
+                          <tr>
+                            <th>Dimensions</th>
+                            <td className="product_dimensions">
+                              62 × 56 × 12 in
+                            </td>
+                          </tr>
+                          <tr>
+                            <th>Size</th>
+                            <td className="product_dimensions">
+                              XL, XXL, LG, SM, MD
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
                 </Tabs>
               </div>

@@ -13,7 +13,7 @@ export default function ProductDetail() {
     <div>
       <Layout pageTitle="Product Name || Comapny Name">
         <Header />
-        <PageHeader title="Product Name" crumbTitle="Blog Details" />
+        <PageHeader title="Product Name" crumbTitle="Product Details" />
         <ProductDetails />
         <Subscribe />
         <Footer />
